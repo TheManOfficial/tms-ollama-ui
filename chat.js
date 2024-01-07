@@ -1,5 +1,5 @@
 const faqString = `
-**How can I expose the Ollama server?**
+**How can I expose myself in public?**
 
 By default, Ollama allows cross origin requests from 127.0.0.1 and 0.0.0.0.
 
