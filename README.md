@@ -50,4 +50,4 @@ cd tms-ollama-ui
 npm run make
 ```
 
-Note: MacOS support is not officially supported, it may or may not function as intended.
+Note: MacOS is not officially supported, it may or may not function as intended.
