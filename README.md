@@ -16,6 +16,10 @@ May be a bit broken, still working on porting and fixing things.
 * Fix Bootstrap UI engine by switching to only CSS for theming.
 
 ## Installation
+Make sure you install Ollama!
+```
+curl https://ollama.ai/install.sh | sh
+```
 ### Run in browser
 ```
 git clone https://github.com/ollama-ui/ollama-ui
@@ -51,3 +55,5 @@ npm run make
 ```
 
 Note: MacOS is not officially supported, it may or may not function as intended.
+
+Note: Ollama does not currently support Windows.
