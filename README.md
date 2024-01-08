@@ -22,8 +22,8 @@ curl https://ollama.ai/install.sh | sh
 ```
 ### Run in browser
 ```
-git clone https://github.com/ollama-ui/ollama-ui
-cd ollama-ui
+git clone https://github.com/TheManStudios/tms-ollama-ui
+cd tms-ollama-ui
 chmod +x start.sh
 ./start.sh
 ```
