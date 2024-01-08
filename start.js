@@ -12,33 +12,6 @@ const createWindow = () => {
   win.maximize();
 
   win.loadFile('index.html');
-
-  win.webContents.once('dom-ready', () => {
-    win.webContents.executeJavaScript(`
-      function updateTitleAndHeader() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const modelName = urlParams.get('model');
-
-        if (modelName) {
-          const namePart = modelName.split(':')[0];
-          const decodedName = decodeURIComponent(namePart);
-
-          function formatModelName(name) {
-            return name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-          }
-
-          document.title = 'Chat with ' + formatModelName(decodedName);
-
-          const h1Element = document.querySelector('h1');
-          h1Element.textContent = 'Chat with ' + formatModelName(decodedName);
-        }
-      }
-
-      setInterval(updateTitleAndHeader, 10);
-
-      updateTitleAndHeader();
-    `);
-  });
 };
 
 app.whenReady().then(createWindow);
