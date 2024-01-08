@@ -1,0 +1,48 @@
+{
+  "name": "tms-ollama-ui",
+  "version": "0.0.5",
+  "description": " HTML/Electron UI for Ollama, with added functionality by The Man Studios ",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "config": {
+    "forge": {
+      "makers": [
+        {
+          "name": "@electron-forge/maker-zip",
+          "config": {
+            "options": {
+              "main": "start.js",
+              "appName": "The Man's Ollama UI"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "icon": {
+    "iconPath": {
+      "mac": "icon256.png",
+      "linux": "icon256.png"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheManStudios/tms-ollama-ui.git"
+  },
+  "author": "The Man Studios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheManStudios/tms-ollama-ui/issues"
+  },
+  "homepage": "https://github.com/TheManStudios/tms-ollama-ui#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.2.0",
+    "@electron-forge/maker-zip": "^7.2.0",
+    "electron": "^28.1.1"
+  }
+}
