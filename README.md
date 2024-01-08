@@ -32,6 +32,7 @@ Pre-built native Electron applications will be provided soon. For now, build it 
 
 ### Building native app
 1. Install npm and git.
+
 Debian/Ubuntu:
 ```
 sudo apt install npm git 
