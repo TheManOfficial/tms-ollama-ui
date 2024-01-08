@@ -1,6 +1,6 @@
 # ollama-ui
 
-Simple HTML/TAURI UI for Ollama, with added functionality by The Man Studios!
+Simple HTML/Electron UI for Ollama, with added functionality by The Man Studios!
 
 May be a bit broken, still working on porting and fixing things.
 
@@ -13,7 +13,7 @@ May be a bit broken, still working on porting and fixing things.
 * Image processing for multimodal models.
 * Image generation (Possibly using InvokeAI?)
 * Fix Bootstrap UI engine by switching to only CSS for theming.
-* Native apps through TAURI
+* Native apps through Electron
 
 ## Usage
 
