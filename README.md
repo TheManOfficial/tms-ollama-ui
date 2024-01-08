@@ -1,4 +1,4 @@
-# ollama-ui
+# The Man Studios' Ollama UI
 
 Simple HTML/Electron UI for Ollama, with added functionality by The Man Studios!
 
@@ -14,18 +14,19 @@ May be a bit broken, still working on porting and fixing things.
 * Image processing for multi-modal models.
 * Image generation (Possibly using InvokeAI?)
 * Fix Bootstrap UI engine by switching to only CSS for theming.
+
 ## Installation
-# Run in browser
+### Run in browser
 ```
 git clone https://github.com/ollama-ui/ollama-ui
 cd ollama-ui
 chmod +x start.sh
 ./start.sh
 ```
-# Pre-built native app
+### Pre-built native app
 Pre-built native Electron applications will be provided soon. For now, build it yourself.
 
-# Building native app
+### Building native app
 1. Install npm and git.
 Debian/Ubuntu:
 ```
