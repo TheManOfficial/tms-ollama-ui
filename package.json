@@ -1,6 +1,6 @@
 {
   "name": "tms-ollama-ui",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": " HTML/Electron UI for Ollama, with added functionality by The Man Studios ",
   "main": "start.js",
   "scripts": {
@@ -44,5 +44,9 @@
     "@electron-forge/cli": "^7.2.0",
     "@electron-forge/maker-zip": "^7.2.0",
     "electron": "^28.1.1"
+  },
+  "dependencies": {
+    "dompurify": "^3.0.8",
+    "marked": "^11.1.1"
   }
 }
