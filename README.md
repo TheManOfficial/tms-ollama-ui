@@ -57,4 +57,4 @@ npm run make
 
 Note: MacOS is not officially supported, it may or may not function as intended.
 
-Note: Ollama does not currently support Windows.
+Note: Ollama does not currently support Windows natively. You can use [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) to install Ollama on Windows.
