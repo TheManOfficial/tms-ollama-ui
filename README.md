@@ -50,7 +50,11 @@ sudo pacman -S npm git
 git clone https://github.com/TheManStudios/tms-ollama-ui
 cd tms-ollama-ui
 ```
-3. Build the application.
+3. Install dependencies.
+```
+npm install
+```
+4. Build the application.
 ```
 npm run make
 ```
