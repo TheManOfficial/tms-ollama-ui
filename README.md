@@ -4,6 +4,7 @@ Simple HTML/Electron UI for Ollama, with added functionality by The Man Studios!
 
 May be a bit broken, still working on porting and fixing things.
 
+I am a massive procrastinator so updates may be infrequent.
 ## Current changes
 * Removes annoying checksum verification, unnessassary chrome extension and extra files.
 * Lightly changes theming.
