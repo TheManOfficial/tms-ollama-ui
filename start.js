@@ -6,7 +6,7 @@ let win;
 const createWindow = () => {
   win = new BrowserWindow({
     autoHideMenuBar: true,
-    frame: false,
+    frame: true,
     icon: path.join(__dirname, './icon256.png'),
   });
 
