@@ -1,20 +1,15 @@
 # The Man Studios' Ollama UI
 
+Project is basically dead, sorry.
+
 Simple HTML/Electron UI for Ollama, with added functionality by The Man Studios!
 
-May be a bit broken, still working on porting and fixing things.
 
-I am a massive procrastinator so updates may be infrequent.
 ## Current changes
 * Removes annoying checksum verification, unnessassary chrome extension and extra files.
 * Lightly changes theming.
 * Header and page title now say the name of the model instead of just "chat with ollama/llama2".
 * Native applications through Electron.
-
-## Planned features:
-* Image processing for multi-modal models.
-* Image generation (Possibly using InvokeAI?)
-* Fix Bootstrap UI engine by switching to only CSS for theming.
 
 ## Installation
 Make sure you install Ollama!
@@ -28,8 +23,6 @@ cd tms-ollama-ui
 chmod +x start.sh
 ./start.sh
 ```
-### Pre-built native app
-Pre-built native Electron applications will be provided soon. For now, build it yourself.
 
 ### Building native app
 1. Install npm and git.
